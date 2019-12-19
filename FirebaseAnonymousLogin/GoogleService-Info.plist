@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>79973147009-2hdu75kkmjoajmt3jsa8pv0dv1bo7tbt.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.79973147009-2hdu75kkmjoajmt3jsa8pv0dv1bo7tbt</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDAIQygkqPiG3Uv_Rn9agV0S5kqyIAP3Sk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>79973147009</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.withios.FirebaseAnonymousLogin</string>
+	<key>PROJECT_ID</key>
+	<string>fir-anonymouslogin-83894</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-anonymouslogin-83894.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:79973147009:ios:8bcd135ecf05e4e2ebc880</string>
+	<key>DATABASE_URL</key>
+	<string>https://fir-anonymouslogin-83894.firebaseio.com</string>
+</dict>
+</plist>

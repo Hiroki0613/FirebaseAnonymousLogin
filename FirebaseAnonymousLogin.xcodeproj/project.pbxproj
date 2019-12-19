@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF9FAA415464E1CBDEFD04D3 /* Pods_FirebaseAnonymousLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F043FCB43E704B16A3C831 /* Pods_FirebaseAnonymousLogin.framework */; };
 		F5B0AB0D23AA690A008D45A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B0AB0C23AA690A008D45A9 /* AppDelegate.swift */; };
 		F5B0AB0F23AA690A008D45A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B0AB0E23AA690A008D45A9 /* SceneDelegate.swift */; };
 		F5B0AB1123AA690A008D45A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B0AB1023AA690A008D45A9 /* ViewController.swift */; };
 		F5B0AB1423AA690A008D45A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B0AB1223AA690A008D45A9 /* Main.storyboard */; };
 		F5B0AB1623AA6911008D45A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B0AB1523AA6911008D45A9 /* Assets.xcassets */; };
 		F5B0AB1923AA6911008D45A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B0AB1723AA6911008D45A9 /* LaunchScreen.storyboard */; };
+		F5B0AB2123ABA292008D45A9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5B0AB2023ABA292008D45A9 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E6876A5D5EA6AA5D804BEAB /* Pods-FirebaseAnonymousLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAnonymousLogin.release.xcconfig"; path = "Target Support Files/Pods-FirebaseAnonymousLogin/Pods-FirebaseAnonymousLogin.release.xcconfig"; sourceTree = "<group>"; };
+		54F043FCB43E704B16A3C831 /* Pods_FirebaseAnonymousLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseAnonymousLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79114ACEA132FA1BCB20D07C /* Pods-FirebaseAnonymousLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAnonymousLogin.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseAnonymousLogin/Pods-FirebaseAnonymousLogin.debug.xcconfig"; sourceTree = "<group>"; };
 		F5B0AB0923AA690A008D45A9 /* FirebaseAnonymousLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseAnonymousLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B0AB0C23AA690A008D45A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5B0AB0E23AA690A008D45A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		F5B0AB1523AA6911008D45A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5B0AB1823AA6911008D45A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5B0AB1A23AA6911008D45A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B0AB2023ABA292008D45A9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9FAA415464E1CBDEFD04D3 /* Pods_FirebaseAnonymousLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A751D8E86DA5EA10FA17B05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79114ACEA132FA1BCB20D07C /* Pods-FirebaseAnonymousLogin.debug.xcconfig */,
+				4E6876A5D5EA6AA5D804BEAB /* Pods-FirebaseAnonymousLogin.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4C09950A28B6E7FE8E881B19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54F043FCB43E704B16A3C831 /* Pods_FirebaseAnonymousLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F5B0AB0023AA690A008D45A9 = {
 			isa = PBXGroup;
 			children = (
 				F5B0AB0B23AA690A008D45A9 /* FirebaseAnonymousLogin */,
 				F5B0AB0A23AA690A008D45A9 /* Products */,
+				3A751D8E86DA5EA10FA17B05 /* Pods */,
+				4C09950A28B6E7FE8E881B19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +90,7 @@
 				F5B0AB1523AA6911008D45A9 /* Assets.xcassets */,
 				F5B0AB1723AA6911008D45A9 /* LaunchScreen.storyboard */,
 				F5B0AB1A23AA6911008D45A9 /* Info.plist */,
+				F5B0AB2023ABA292008D45A9 /* GoogleService-Info.plist */,
 			);
 			path = FirebaseAnonymousLogin;
 			sourceTree = "<group>";
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5B0AB1D23AA6911008D45A9 /* Build configuration list for PBXNativeTarget "FirebaseAnonymousLogin" */;
 			buildPhases = (
+				9A5D5EBCABE0FF39C12778E7 /* [CP] Check Pods Manifest.lock */,
 				F5B0AB0523AA690A008D45A9 /* Sources */,
 				F5B0AB0623AA690A008D45A9 /* Frameworks */,
 				F5B0AB0723AA690A008D45A9 /* Resources */,
+				AC701380B6AD3BC5FA85F3EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +157,54 @@
 			files = (
 				F5B0AB1923AA6911008D45A9 /* LaunchScreen.storyboard in Resources */,
 				F5B0AB1623AA6911008D45A9 /* Assets.xcassets in Resources */,
+				F5B0AB2123ABA292008D45A9 /* GoogleService-Info.plist in Resources */,
 				F5B0AB1423AA690A008D45A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A5D5EBCABE0FF39C12778E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseAnonymousLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC701380B6AD3BC5FA85F3EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseAnonymousLogin/Pods-FirebaseAnonymousLogin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseAnonymousLogin/Pods-FirebaseAnonymousLogin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseAnonymousLogin/Pods-FirebaseAnonymousLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F5B0AB0523AA690A008D45A9 /* Sources */ = {
@@ -282,6 +355,7 @@
 		};
 		F5B0AB1E23AA6911008D45A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79114ACEA132FA1BCB20D07C /* Pods-FirebaseAnonymousLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +374,7 @@
 		};
 		F5B0AB1F23AA6911008D45A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E6876A5D5EA6AA5D804BEAB /* Pods-FirebaseAnonymousLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

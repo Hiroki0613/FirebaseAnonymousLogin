@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var displayLoginID: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,5 +20,29 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func loginButton(_ sender: Any) {
+        
+        Auth.auth().signInAnonymously { (authResult, error) in
+            
+            if error != nil {
+                print("ログインに成功しました")
+            }
+            guard let user = authResult?.user else {
+                return
+            }
+            
+            //ログインしたユーザーが匿名であるかをbool
+            //ログイン成功で匿名が保証されているので必要なし
+            //let isAnonymous = user.isAnonymous
+            self.displayLoginID.text = "   ID:\(user.uid)"
+            
+        }
+    }
 }
+
+/*
+ 参考URL
+ iOS で Firebase 匿名認証を行う
+ https://firebase.google.com/docs/auth/ios/anonymous-auth?hl=ja
+ */
 
