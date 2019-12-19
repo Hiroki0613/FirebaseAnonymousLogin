@@ -25,9 +25,10 @@ class ViewController: UIViewController {
         Auth.auth().signInAnonymously { (authResult, error) in
             
             if error != nil {
-                print("ログインに成功しました")
-            } else {
                 print("ログイン失敗やで")
+                return
+            } else {
+                print("ログイン成功しました")
             }
             guard let user = authResult?.user else {
                 return
