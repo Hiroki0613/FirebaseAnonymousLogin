@@ -26,6 +26,8 @@ class ViewController: UIViewController {
             
             if error != nil {
                 print("ログインに成功しました")
+            } else {
+                print("ログイン失敗やで")
             }
             guard let user = authResult?.user else {
                 return
