@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		BF9FAA415464E1CBDEFD04D3 /* Pods_FirebaseAnonymousLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F043FCB43E704B16A3C831 /* Pods_FirebaseAnonymousLogin.framework */; };
+		F58940A423B0CCB200A7B129 /* sendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58940A323B0CCB200A7B129 /* sendViewController.swift */; };
+		F58940A623B0CCDB00A7B129 /* displayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58940A523B0CCDB00A7B129 /* displayViewController.swift */; };
 		F5B0AB0D23AA690A008D45A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B0AB0C23AA690A008D45A9 /* AppDelegate.swift */; };
 		F5B0AB0F23AA690A008D45A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B0AB0E23AA690A008D45A9 /* SceneDelegate.swift */; };
 		F5B0AB1123AA690A008D45A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B0AB1023AA690A008D45A9 /* ViewController.swift */; };
@@ -21,6 +23,8 @@
 		4E6876A5D5EA6AA5D804BEAB /* Pods-FirebaseAnonymousLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAnonymousLogin.release.xcconfig"; path = "Target Support Files/Pods-FirebaseAnonymousLogin/Pods-FirebaseAnonymousLogin.release.xcconfig"; sourceTree = "<group>"; };
 		54F043FCB43E704B16A3C831 /* Pods_FirebaseAnonymousLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseAnonymousLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79114ACEA132FA1BCB20D07C /* Pods-FirebaseAnonymousLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAnonymousLogin.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseAnonymousLogin/Pods-FirebaseAnonymousLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		F58940A323B0CCB200A7B129 /* sendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendViewController.swift; sourceTree = "<group>"; };
+		F58940A523B0CCDB00A7B129 /* displayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = displayViewController.swift; sourceTree = "<group>"; };
 		F5B0AB0923AA690A008D45A9 /* FirebaseAnonymousLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseAnonymousLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B0AB0C23AA690A008D45A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5B0AB0E23AA690A008D45A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +54,6 @@
 				79114ACEA132FA1BCB20D07C /* Pods-FirebaseAnonymousLogin.debug.xcconfig */,
 				4E6876A5D5EA6AA5D804BEAB /* Pods-FirebaseAnonymousLogin.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -87,6 +90,8 @@
 				F5B0AB0E23AA690A008D45A9 /* SceneDelegate.swift */,
 				F5B0AB1023AA690A008D45A9 /* ViewController.swift */,
 				F5B0AB1223AA690A008D45A9 /* Main.storyboard */,
+				F58940A323B0CCB200A7B129 /* sendViewController.swift */,
+				F58940A523B0CCDB00A7B129 /* displayViewController.swift */,
 				F5B0AB1523AA6911008D45A9 /* Assets.xcassets */,
 				F5B0AB1723AA6911008D45A9 /* LaunchScreen.storyboard */,
 				F5B0AB1A23AA6911008D45A9 /* Info.plist */,
@@ -211,6 +216,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F58940A423B0CCB200A7B129 /* sendViewController.swift in Sources */,
+				F58940A623B0CCDB00A7B129 /* displayViewController.swift in Sources */,
 				F5B0AB1123AA690A008D45A9 /* ViewController.swift in Sources */,
 				F5B0AB0D23AA690A008D45A9 /* AppDelegate.swift in Sources */,
 				F5B0AB0F23AA690A008D45A9 /* SceneDelegate.swift in Sources */,
