@@ -35,6 +35,7 @@ class sendViewController: UIViewController,UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         sendTextField1.resignFirstResponder()
         sendTextField2.resignFirstResponder()
+        return true
     }
     
     @IBAction func sendButton(_ sender: Any) {

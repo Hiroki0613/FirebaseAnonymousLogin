@@ -47,6 +47,7 @@ class displayViewController: UIViewController,UITableViewDelegate,UITableViewDat
         displayMessageLabel1.text = self.chatArray[indexPath.row].displayMessage1
         displayMessageLabel2.text = self.chatArray[indexPath.row].displayMessage2
         
+        return cell
             
     }
     
@@ -64,8 +65,8 @@ class displayViewController: UIViewController,UITableViewDelegate,UITableViewDat
             let sender = snapShotData.value(forKey: "sender")
             
             let message = Message()
-            message.message = text as! String
-            message.sender = sender as! String
+            message.displayMessage1 = text as! String
+            message.displayMessage2 = sender as! String
             
             self.chatArray.append(message)
             self.tableView.reloadData()
