@@ -42,6 +42,7 @@ class ViewController: UIViewController {
             self.displayLoginID.text = "   ID:\(user.uid)"
             
         }
+        performSegue(withIdentifier: "next1", sender: nil)
     }
 }
 

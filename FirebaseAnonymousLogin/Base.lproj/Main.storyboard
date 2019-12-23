@@ -45,7 +45,7 @@
                     <navigationItem key="navigationItem" id="Nsd-Bk-Snk"/>
                     <connections>
                         <outlet property="displayLoginID" destination="1QH-O6-iNc" id="U5x-SK-tkX"/>
-                        <segue destination="tII-UM-FL0" kind="show" id="V2u-0G-SpY"/>
+                        <segue destination="tII-UM-FL0" kind="show" identifier="next1" id="V2u-0G-SpY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -81,6 +81,16 @@
                                     <action selector="sendButton:" destination="tII-UM-FL0" eventType="touchUpInside" id="N4K-SO-5lw"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCk-vP-ZPh">
+                                <rect key="frame" x="177" y="648" width="61" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="次へ"/>
+                                <connections>
+                                    <action selector="goToNext:" destination="tII-UM-FL0" eventType="touchUpInside" id="5uA-Po-vW6"/>
+                                    <action selector="sendButton:" destination="tII-UM-FL0" eventType="touchUpInside" id="nKz-RF-y9g"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="aEs-Ip-9Kz"/>
@@ -90,7 +100,7 @@
                         <outlet property="sendButton" destination="DBU-op-LxP" id="4eb-Ry-Ezy"/>
                         <outlet property="sendTextField1" destination="Ykt-pW-qyX" id="O2G-9O-V5e"/>
                         <outlet property="sendTextField2" destination="Pkd-zo-oCd" id="p08-oa-ROO"/>
-                        <segue destination="43I-ea-HI3" kind="show" id="cWy-nX-tXJ"/>
+                        <segue destination="43I-ea-HI3" kind="show" identifier="next2" id="cWy-nX-tXJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SmK-FE-yks" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

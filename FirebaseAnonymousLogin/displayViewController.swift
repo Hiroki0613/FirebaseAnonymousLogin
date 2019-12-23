@@ -21,6 +21,9 @@ class displayViewController: UIViewController,UITableViewDelegate,UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        fetchChatData()
+        tableView.delegate = self
+        
         // Do any additional setup after loading the view.
     }
     
@@ -41,8 +44,8 @@ class displayViewController: UIViewController,UITableViewDelegate,UITableViewDat
         let displayMessageLabel1 = cell.contentView.viewWithTag(1) as! UILabel
         let displayMessageLabel2 = cell.contentView.viewWithTag(2) as! UILabel
         
-        cell.displayMessageLabel1.text = self.chatArray[indexPath.row].displayMessage1
-        cell.displayMessageLabel2.text = self.chatArray[indexPath.row].displayMessage2
+        displayMessageLabel1.text = self.chatArray[indexPath.row].displayMessage1
+        displayMessageLabel2.text = self.chatArray[indexPath.row].displayMessage2
         
             
     }

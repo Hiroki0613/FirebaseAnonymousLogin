@@ -73,7 +73,7 @@ class sendViewController: UIViewController,UITextFieldDelegate {
         //キーバリュー型(Dictionary型)で内容を送信する
         //currentUserは今ログインしているユーザーのこと
         //emailの後のカンマはAPIでの最後のカンマと同じもの、つまり次のdictionary型の値を入れている
-        let messageInfo = ["sender":Auth.auth().currentUser?.email,"message":messageTextField.text!]
+        let messageInfo = ["sender":sendTextField1.text!,"message":sendTextField2.text!]
         
         //chatDBに入れる。
         //その下にAutoIdをつけて、さらに下にmessageInfoをつける。
@@ -96,6 +96,11 @@ class sendViewController: UIViewController,UITextFieldDelegate {
             }
         }
         
+    }
+    
+    
+    @IBAction func goToNext(_ sender: Any) {
+        performSegue(withIdentifier: "next2", sender: nil)
     }
     
 
